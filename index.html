@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <img src="https://images.pexels.com/photos/31177054/pexels-photo-31177054/free-photo-of-colorful-javascript-code-on-monitor-screen.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sample Image from Pexels" width="600">
+
+    <table border="1">
+        <caption>Contact List</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>123-456-7890</td>
+                <td>john@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St</td>
+                <td>01-654-3210</td>
+                <td>jane@yahoo.mail</td>
+            </tr>
+            <tr>
+                <td>Rodgers Kang'ethe</td>
+                <td>789 Oak St</td>
+                <td>254-732-456777</td>
+                <td>bob@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice Nzili</td>
+                <td>321 Pine St</td>
+                <td>233-555-6666</td>
+                <td>alice@zoho.mail</td>
+            </tr>
+            <tr>
+                <td>Charlie Brown</td>
+                <td>654 Maple St</td>
+                <td>44-777-8888</td>
+                <td>charlie@outlook.org</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Registration Form</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br><br>
+
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+</body>
+</html>
